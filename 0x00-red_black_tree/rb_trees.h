@@ -1,3 +1,6 @@
+#ifndef RB_TREES_H
+#define RB_TREES_H
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -11,7 +14,7 @@ typedef enum rb_color_e
 {
 	RED = 0,
 	BLACK,
-    DOUBLE_BLACK
+	DOUBLE_BLACK
 } rb_color_t;
 
 /**
@@ -33,3 +36,5 @@ typedef struct rb_tree_s
 } rb_tree_t;
 
 rb_tree_t *rb_tree_node(rb_tree_t *parent, int value, rb_color_t color);
+
+#endif
