@@ -1,9 +1,9 @@
 #include "graphs.h"
 
 /**
+ * graph_create - Create a graph structure.
  *
- *
- *
+ * Return: New graph or NULL.
  */
 graph_t *graph_create(void)
 {
